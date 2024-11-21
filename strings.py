@@ -151,3 +151,6 @@ print("Is alphabetic:", text.isalpha())
 text = "42"
 padded_text = text.zfill(5)  # Pads with zeros to make length 5
 print("Padded text:", padded_text)
+
+
+
