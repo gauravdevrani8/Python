@@ -15,3 +15,38 @@ for i in list1:
         list2.append(i)
 print(list2)
 
+# print star pattern 
+
+# method 1 
+n = 5
+for i in range(1, n + 1):
+    print('*' * i)
+
+# method 2
+n = 5
+for i in range(1, n + 1):
+    for j in range(i):
+        print('*', end='')
+    print()  # Move to the next line
+
+# method 3
+n = 5
+for i in range(1, n + 1):
+    print(''.join(['*' for _ in range(i)]))
+
+# method 4 
+def print_pattern(n, i=1):
+    if i > n:
+        return
+    print('*' * i)
+    print_pattern(n, i + 1)
+
+n = 5
+print_pattern(n)
+
+# method 5 
+n = 5
+i = 1
+while i <= n:
+    print('*' * i)
+    i += 1
