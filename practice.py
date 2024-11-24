@@ -94,3 +94,15 @@ for i in range(1, 6):     # Outer loop: Numbers from 1 to 5
     for j in range(i):    # Inner loop: Repeat the number `i` times
         print(i, end='')  # Print the number without moving to a new line
     print()               # Move to the next line after inner loop
+
+
+# print
+# 1
+#   2
+#     3
+#       4
+#         5
+
+
+for i in range(1, 6):  # Loop through numbers 1 to 5
+    print(' ' * (i - 1) + str(i))  # Add (i-1) spaces followed by the number i
