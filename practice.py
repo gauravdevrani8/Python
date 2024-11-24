@@ -106,3 +106,16 @@ for i in range(1, 6):     # Outer loop: Numbers from 1 to 5
 
 for i in range(1, 6):  # Loop through numbers 1 to 5
     print(' ' * (i - 1) + str(i))  # Add (i-1) spaces followed by the number i
+
+
+# print 
+#     *
+#    ***
+#   *****
+#  *******
+# *********
+
+
+n = int(input("Enter the number of rows: "))
+for i in range(1, n+1):
+    print(' ' * (n-i) + '*' * (2*i - 1))
