@@ -76,3 +76,15 @@ for i in range(5, 0, -1):  # Outer loop for numbers from 5 to 1
     for j in range(i):     # Inner loop to repeat the number 'i' times
         print(i, end='')   # Print 'i' without moving to a new line
     print()                # Move to the next line after inner loop
+
+# print
+# 1  
+# 22  
+# 333  
+# 4444  
+# 55555
+
+for i in range(1,6):
+    print(str(i)*i)
+
+    
