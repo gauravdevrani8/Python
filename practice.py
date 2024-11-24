@@ -27,6 +27,7 @@ print("-------------------------------------------------------------------------
 for i in range(1,6):
     print('*' * i)
 # method 2
+
 n = 5
 for i in range(1, n + 1):
     for j in range(i):
@@ -56,3 +57,6 @@ while i <= n:
     i += 1
 
 
+# upside down start pattern 
+for i in range(6,0,-1):
+    print('*' * i)
