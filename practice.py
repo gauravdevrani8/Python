@@ -21,7 +21,11 @@ print(list2)
 n = 5
 for i in range(1, n + 1):
     print('*' * i)
+# or 
+print("--------------------------------------------------------------------------------------")
 
+for i in range(1,6):
+    print('*' * i)
 # method 2
 n = 5
 for i in range(1, n + 1):
@@ -44,9 +48,11 @@ def print_pattern(n, i=1):
 n = 5
 print_pattern(n)
 
-# method 5 
+# method 5
 n = 5
 i = 1
 while i <= n:
     print('*' * i)
     i += 1
+
+
