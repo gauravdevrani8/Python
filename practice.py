@@ -87,4 +87,10 @@ for i in range(5, 0, -1):  # Outer loop for numbers from 5 to 1
 for i in range(1,6):
     print(str(i)*i)
 
-    
+
+# method 2
+
+for i in range(1, 6):     # Outer loop: Numbers from 1 to 5
+    for j in range(i):    # Inner loop: Repeat the number `i` times
+        print(i, end='')  # Print the number without moving to a new line
+    print()               # Move to the next line after inner loop
