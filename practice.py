@@ -131,4 +131,12 @@ for i in range(500):
     data.append([name, age, grade])
 
 print(data)
-8
+
+# generate random valuable names for table data and age 
+from random import randint, choice
+names =[]
+for i in range(5):
+    name = ''.join(choice('ABCDEFGHIJKLMNOPQRSTUVWXYZ') for _ in range(10))
+    names.append(name)
+print(names)7
+
