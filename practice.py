@@ -119,3 +119,16 @@ for i in range(1, 6):  # Loop through numbers 1 to 5
 n = int(input("Enter the number of rows: "))
 for i in range(1, n+1):
     print(' ' * (n-i) + '*' * (2*i - 1))
+
+# generate a tabel containing 500 entries of students data
+from random import randint, choice
+
+data = []
+for i in range(500):
+    name = 'Student ' + str(i + 1)
+    age = randint(18, 25)  # random age between 18 and 25
+    grade = choice(['A', 'B', 'C', 'D', 'F'])  # random grade
+    data.append([name, age, grade])
+
+print(data)
+8
